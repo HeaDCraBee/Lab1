@@ -1,29 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lab1.Manufactures
+﻿namespace Lab1.Manufactures
 {
     internal class Volkswagen : Manufactor
     {
         public Volkswagen()
         {
+            Name = "Volkswagen";
+
             ModelsList = new()
             {
-                { "Polo", 30000 },
-                { "Golf", 40000 },
-                { "Passat", 50000 },
-                { "Tiguan", 60000 },
-                { "Tuareg", 70000 }
+                { "Polo", 30000.0m },
+                { "Golf", 40000.0m },
+                { "Passat", 50000.0m },
+                { "Tiguan", 60000.0m },
+                { "Tuareg", 70000.0m }
             };
 
-            LeatherPrice = 500;
-            AlcantaraPrice = 1000;
-            TyresPrice = 250;
-            ImprovedSoundSystemPrice = 150;
-            PaintProtectionPrice = 500;
+            LeatherPrice = 500.0m;
+            AlcantaraPrice = 1000.0m;
+            TyresPrice = 250.0m;
+            ImprovedSoundSystemPrice = 150.0m;
+            PaintProtectionPrice = 500.0m;
         }
     }
 }
