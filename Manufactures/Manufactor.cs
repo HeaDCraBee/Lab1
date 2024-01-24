@@ -3,6 +3,7 @@
     internal abstract class Manufactor
     {
         public string Name { get; protected set; }
+
         public decimal BasePrice { get; protected set; }
 
         public Dictionary<string, decimal> ModelsList { get; protected set; }
